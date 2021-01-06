@@ -1,0 +1,27 @@
+{
+  "name": "dmeo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "express": "^4.17.1",
+    "log4js": "^6.3.0",
+    "md5": "^2.3.0",
+    "mockjs": "^1.1.0",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.6",
+    "sequelize": "^6.3.5",
+    "validate.js": "^0.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -x npm run server",
+    "server": "node index"
+  },  
+  "author": "",
+  "license": "ISC"  
+}
